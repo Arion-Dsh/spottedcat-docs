@@ -1,0 +1,15 @@
+{
+  "name": "showcase_demos",
+  "type": "module",
+  "version": "1.0.0",
+  "files": [
+    "showcase_demos_bg.wasm",
+    "showcase_demos.js",
+    "showcase_demos.d.ts"
+  ],
+  "main": "showcase_demos.js",
+  "types": "showcase_demos.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

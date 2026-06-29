@@ -1,0 +1,15 @@
+{
+  "name": "flappy_cat",
+  "type": "module",
+  "version": "1.0.0",
+  "files": [
+    "flappy_cat_bg.wasm",
+    "flappy_cat.js",
+    "flappy_cat.d.ts"
+  ],
+  "main": "flappy_cat.js",
+  "types": "flappy_cat.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
