@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Spottedcat
   text: Build small 2D/3D games in Rust
-  tagline: "A tiny engine with claws: one focused API for desktop, Web, iOS, and Android."
+  tagline: "Small, fast, and a little wild—Spottedcat takes its name from the rusty-spotted cat. Build 2D and 3D games in Rust for desktop, web, iOS, and Android."
   image:
     src: /logo.svg
     alt: Spottedcat
@@ -45,12 +45,6 @@ import { withBase } from 'vitepress'
 ::: tip Stable 1.0 release
 Spottedcat 1.0 is the first stable release. Public API breakage is reserved for future major versions; minor and patch releases focus on compatibility, fixes, and additive improvements.
 :::
-
-## Name and mascot
-
-Spottedcat takes its name from the rusty-spotted cat: a tiny wild cat with a wonderfully oversized attitude. The name also nods to Rust, the language behind the engine.
-
-That is the spirit of the project: small surface area, quick feedback, and enough claws to build real 2D/3D games. The pixel cat you see in the splash screen is the engine's little signature.
 
 ## Minimal shape
 
