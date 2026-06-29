@@ -20,6 +20,39 @@
   max-height: 280px;
 }
 
+/* Keep the product statement prominent without letting it dominate the hero. */
+@media (min-width: 640px) {
+  .VPHero .text {
+    max-width: 620px;
+    font-size: 36px;
+    line-height: 1.15;
+    letter-spacing: -0.8px;
+  }
+
+  .VPHero .tagline {
+    max-width: 620px;
+    font-size: 19px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 960px) {
+  .VPHero.has-image .main {
+    max-width: 640px;
+  }
+
+  .VPHero .text {
+    max-width: 640px;
+    font-size: 44px;
+    line-height: 1.12;
+  }
+
+  .VPHero .tagline {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
 .VPFeature {
   border-color: var(--vp-c-divider);
   background: linear-gradient(145deg, var(--vp-c-bg-soft), var(--vp-c-bg));
