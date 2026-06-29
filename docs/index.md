@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: Spottedcat
-  text: Build small 2D/3D games in Rust
-  tagline: "Small, fast, and a little wild—Spottedcat takes its name from the rusty-spotted cat. Build 2D and 3D games in Rust for desktop, web, iOS, and Android."
+  text: Lightweight cross-platform 2D/3D game engine
+  tagline: "Small, fast, and a little wild—named after the rusty-spotted cat and built in Rust."
   image:
     src: /logo.svg
     alt: Spottedcat
@@ -28,8 +28,8 @@ features:
     details: Enable model features for primitives, GLTF loading, animation, instancing, fog, and custom model shaders.
     link: /graphics/3d
     linkText: 3D guide
-  - title: Ship beyond desktop
-    details: Use the same Rust core across desktop, WebAssembly, iOS, and Android with source-first platform examples.
+  - title: Build for every screen
+    details: Ship to desktop, web, iOS, and Android from one codebase.
     link: /platforms/
     linkText: Platform guide
   - title: Use the tiny cat intro
