@@ -2,6 +2,8 @@
 
 The documentation website for [spottedcat](https://github.com/Arion-Dsh/spottedcat), built with VitePress and deployed with GitHub Pages.
 
+The name comes from the rusty-spotted cat: tiny, quick, and a little wild. It also nods to Rust, the language behind the engine.
+
 ## Local development
 
 ```bash

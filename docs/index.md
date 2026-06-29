@@ -46,6 +46,12 @@ import { withBase } from 'vitepress'
 Spottedcat 1.0 is the first stable release. Public API breakage is reserved for future major versions; minor and patch releases focus on compatibility, fixes, and additive improvements.
 :::
 
+## Name and mascot
+
+Spottedcat takes its name from the rusty-spotted cat: a tiny wild cat with a wonderfully oversized attitude. The name also nods to Rust, the language behind the engine.
+
+That is the spirit of the project: small surface area, quick feedback, and enough claws to build real 2D/3D games. The pixel cat you see in the splash screen is the engine's little signature.
+
 ## Minimal shape
 
 Spottedcat apps are ordinary Rust types that implement `Spot`:
