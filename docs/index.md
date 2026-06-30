@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: Spottedcat
-  text: Lightweight cross-platform 2D/3D game engine
+  text: Build 2D/3D games that run everywhere
   tagline: "Small, fast, and a little wild—built in Rust for cross-platform games and AI-assisted creation."
   image:
     src: /logo.svg
