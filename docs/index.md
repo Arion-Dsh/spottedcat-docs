@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Spottedcat
   text: Lightweight cross-platform 2D/3D game engine
-  tagline: "Small, fast, and a little wild—named after the rusty-spotted cat and built in Rust."
+  tagline: "Small, fast, and a little wild—built in Rust for cross-platform games and AI-assisted creation."
   image:
     src: /logo.svg
     alt: Spottedcat
@@ -32,10 +32,10 @@ features:
     details: Ship to desktop, web, iOS, and Android from one codebase.
     link: /platforms/
     linkText: Platform guide
-  - title: Use the tiny cat intro
-    details: Wrap your root scene with OneShotSplash for a built-in pixel-art Rusty-spotted cat startup scene.
-    link: /guide/splash
-    linkText: Splash guide
+  - title: AI-friendly examples
+    details: Small, focused examples that are easy to read, remix, and generate with AI tools.
+    link: /examples/
+    linkText: Examples gallery
 ---
 
 <script setup>
