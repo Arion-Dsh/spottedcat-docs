@@ -16,8 +16,8 @@ hero:
       text: Play WASM Demo
       link: /play/flappy-cat
     - theme: alt
-      text: Draw an Image
-      link: /recipes/draw-image
+      text: AI Guide
+      link: /ai/
 
 features:
   - title: Build a real mini-game
@@ -45,6 +45,25 @@ import { withBase } from 'vitepress'
 ::: tip Stable 1.0 release
 Spottedcat 1.0 is the first stable release. Public API breakage is reserved for future major versions; minor and patch releases focus on compatibility, fixes, and additive improvements.
 :::
+
+## Built for AI-assisted iteration
+
+Spottedcat keeps the core loop small and explicit, so AI tools have fewer hidden conventions to guess. Point them at a runnable example, ask for one playable slice, then grow it into a real game.
+
+<div class="sp-grid">
+  <a class="sp-card sp-card-accent" :href="withBase('/ai/')">
+    <strong>Use the AI Guide</strong>
+    <span>Prompt Codex or another assistant with stable APIs, examples, and a tiny-slice workflow.</span>
+  </a>
+  <a class="sp-card" :href="withBase('/examples/')">
+    <strong>Start from real examples</strong>
+    <span>Use runnable 2D, 3D, input, image, shader, and WASM examples as generation anchors.</span>
+  </a>
+  <a class="sp-card" :href="withBase('/guide/core-concepts')">
+    <strong>Stay on the stable path</strong>
+    <span>Generate around `Spot`, `Context`, `Image`, `Text`, `Model`, and the 1.0 lifecycle.</span>
+  </a>
+</div>
 
 ## Minimal shape
 
@@ -95,6 +114,10 @@ fn main() {
   <a class="sp-card" :href="withBase('/play/input')">
     <strong>Want smaller demos?</strong>
     <span>Try input, image, and shader examples as real Rust/WebAssembly builds.</span>
+  </a>
+  <a class="sp-card" :href="withBase('/ai/')">
+    <strong>Using AI to prototype?</strong>
+    <span>Give your assistant the stable surfaces, nearby examples, and tiny-slice workflow.</span>
   </a>
   <a class="sp-card" :href="withBase('/recipes/draw-image')">
     <strong>Need a snippet?</strong>
