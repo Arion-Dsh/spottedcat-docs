@@ -6,14 +6,24 @@ const base = process.env.DOCS_BASE ?? (repository ? `/${repository}/` : '/')
 export default defineConfig({
   lang: 'en-US',
   title: 'Spottedcat',
-  description: 'A lightweight cross-platform 2D/3D game engine for Rust',
+  titleTemplate: ':title | Spottedcat',
+  description: 'A lightweight cross-platform Rust 2D/3D game engine for desktop, WebAssembly, iOS, Android, and AI-assisted creation.',
   base,
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://rustyspottedcat.dev'
+  },
   head: [
     ['meta', { name: 'theme-color', content: '#d56b3f' }],
+    ['meta', { name: 'keywords', content: 'Spottedcat, Rust game engine, Rust 2D engine, Rust 3D engine, WebAssembly game engine, WASM game engine, cross-platform game engine, AI-assisted game development' }],
+    ['link', { rel: 'canonical', href: 'https://rustyspottedcat.dev/' }],
     ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: 'https://rustyspottedcat.dev/' }],
     ['meta', { property: 'og:title', content: 'Spottedcat Documentation' }],
-    ['meta', { property: 'og:description', content: 'A lightweight cross-platform 2D/3D game engine for Rust' }]
+    ['meta', { property: 'og:description', content: 'A lightweight cross-platform Rust 2D/3D game engine for desktop, WebAssembly, iOS, Android, and AI-assisted creation.' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:title', content: 'Spottedcat Documentation' }],
+    ['meta', { name: 'twitter:description', content: 'A lightweight cross-platform Rust 2D/3D game engine for desktop, WebAssembly, iOS, Android, and AI-assisted creation.' }]
   ],
   themeConfig: {
     logo: '/logo.svg',
