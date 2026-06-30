@@ -34,8 +34,8 @@ features:
     linkText: Platform guide
   - title: AI-friendly examples
     details: Small, focused examples that are easy to read, remix, and generate with AI tools.
-    link: /examples/
-    linkText: Examples gallery
+    link: /ai/
+    linkText: AI Guide
 ---
 
 <script setup>

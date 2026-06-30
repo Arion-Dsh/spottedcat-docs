@@ -21,6 +21,7 @@ export default defineConfig({
     nav: [
       { text: 'Guide', link: '/guide/flappy-cat' },
       { text: 'Examples', link: '/examples/' },
+      { text: 'AI Guide', link: '/ai/' },
       { text: 'Platforms', link: '/platforms/' },
       { text: 'Release Notes', link: '/release-notes/1.0' },
       { text: 'API Reference', link: 'https://docs.rs/spottedcat' }
@@ -114,6 +115,23 @@ export default defineConfig({
             { text: 'Input Demo', link: '/play/input' },
             { text: 'Image Demo', link: '/play/image' },
             { text: 'Shader Demo', link: '/play/shader' }
+          ]
+        }
+      ],
+      '/ai/': [
+        {
+          text: 'AI Guide',
+          items: [
+            { text: 'AI-assisted Creation', link: '/ai/' }
+          ]
+        },
+        {
+          text: 'Useful References',
+          items: [
+            { text: 'Examples Gallery', link: '/examples/' },
+            { text: 'Build Flappy Cat', link: '/guide/flappy-cat' },
+            { text: 'Core Concepts', link: '/guide/core-concepts' },
+            { text: 'API Reference', link: 'https://docs.rs/spottedcat' }
           ]
         }
       ],
