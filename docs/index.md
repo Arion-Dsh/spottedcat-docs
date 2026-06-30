@@ -42,10 +42,6 @@ features:
 import { withBase } from 'vitepress'
 </script>
 
-::: tip Stable 1.0 release
-Spottedcat 1.0 is the first stable release. Public API breakage is reserved for future major versions; minor and patch releases focus on compatibility, fixes, and additive improvements.
-:::
-
 ## Why "Spottedcat"?
 
 The name comes from the **rusty-spotted cat** (*Prionailurus rubiginosus*): tiny, quick, and a little wild. It also nods to Rust, the language behind the engine.
