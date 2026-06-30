@@ -46,6 +46,12 @@ import { withBase } from 'vitepress'
 Spottedcat 1.0 is the first stable release. Public API breakage is reserved for future major versions; minor and patch releases focus on compatibility, fixes, and additive improvements.
 :::
 
+## Why "Spottedcat"?
+
+The name comes from the **rusty-spotted cat** (*Prionailurus rubiginosus*): tiny, quick, and a little wild. It also nods to Rust, the language behind the engine.
+
+That is the spirit of Spottedcat: a small cross-platform engine that stays light enough to understand, fast enough to prototype with, and clear enough for both humans and AI tools to build on.
+
 ## Built for AI-assisted iteration
 
 Spottedcat keeps the core loop small and explicit, so AI tools have fewer hidden conventions to guess. Point them at a runnable example, ask for one playable slice, then grow it into a real game.
