@@ -1,7 +1,7 @@
 {
   "name": "flappy_cat",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": [
     "flappy_cat_bg.wasm",
     "flappy_cat.js",

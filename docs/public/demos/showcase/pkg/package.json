@@ -1,7 +1,7 @@
 {
   "name": "showcase_demos",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": [
     "showcase_demos_bg.wasm",
     "showcase_demos.js",

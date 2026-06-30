@@ -9,7 +9,7 @@ You can also [play the finished WASM demo](/play/flappy-cat).
 ```bash
 cargo new flappy-cat
 cd flappy-cat
-cargo add spottedcat@1.0.0
+cargo add spottedcat@1.0.1
 ```
 
 Replace `src/main.rs` as you go through the guide.

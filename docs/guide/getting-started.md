@@ -12,14 +12,14 @@ Create a project and add the dependency:
 ```bash
 cargo new my-game
 cd my-game
-cargo add spottedcat@1.0.0
+cargo add spottedcat@1.0.1
 ```
 
 The default configuration contains only the lean 2D core. Enable features as needed for image decoding, GLTF, 3D models, effects, or sensors:
 
 ```toml
 [dependencies]
-spottedcat = { version = "1.0.0", features = ["utils", "gltf", "effects", "sensors"] }
+spottedcat = { version = "1.0.1", features = ["utils", "gltf", "effects", "sensors"] }
 ```
 
 ## Your first application
